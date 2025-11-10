@@ -1,0 +1,87 @@
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background: linear-gradient(135deg, #041c46 0%, #18266F 100%);
+    padding: 12px 24px;
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(24, 38, 111, 0.7);
+}
+
+nav img {
+    margin: 0 20px;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #041c46 0%, #18266F 100%);
+    padding: 12px 40px;
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(24, 38, 111, 0.7);
+
+}
+
+.social {
+    color: #FFFFFF;
+    margin-left: 12px;
+    width: 24px;
+    /* fixa o tamanho dos ícones */
+    height: auto;
+    /* para que não haja distorção na mudança de tamanho do ícone*/
+    transition: opacity 0.3s;
+    /*suaviza a transição para o hover*/
+}
+
+.social:hover {
+    opacity: 0.6;
+    /* efeito hover */
+}
+
+
+
+
+.login-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+nav a {
+    color: #dde6f0;
+    /* cor clara para contraste suave */
+    text-decoration: none;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid hsl(0, 0%, 70%);
+    color: white;
+
+}

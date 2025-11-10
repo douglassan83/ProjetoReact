@@ -1,0 +1,21 @@
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+.c-card {
+
+    padding: 2em;
+    border-radius: 15px;
+    width: 20%;
+    background-color: #041c46;
+    color: rgb(36, 230, 11);
+    margin: 0px auto;
+
+}
